@@ -1,0 +1,42 @@
+/* header {
+  border: 1px solid grey;
+}
+
+li {
+  float: right;
+  list-style-type: none;
+}
+
+li a {
+  display: block;
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+} */
+
+/* Box Model Sample*/
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid red;
+}
+
+header {
+  border: 2px solid green;
+  margin-bottom: 10px;
+  padding: 20px;
+  background-color: yellow;
+}
+
+div {
+  border: 1px solid greenyellow;
+  margin: 20px;
+  padding: 10px;
+  background-color: violet;
+}
+
+li {
+  border: 1px solid cyan;
+  background-color: thistle;
+}
