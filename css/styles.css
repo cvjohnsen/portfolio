@@ -1,4 +1,4 @@
-/* header {
+header {
   border: 1px solid grey;
 }
 
@@ -12,10 +12,30 @@ li a {
   color: grey;
   text-align: center;
   padding: 14px 16px;
-} */
+}
+
+form {
+  padding: auto;
+  /* background-color: slategray; */
+  /* font-style: italic; */
+  /* border-style: solid; */
+  font-weight: 900px;
+  color: black;
+  text-align: center;
+}
+
+input[type="button"]:hover {
+  color: black;
+  background-color: grey;
+  border-radius: 4px;
+}
+input[type="text"]:focus {
+  color: black;
+  background-color: slategray;
+}
 
 /* Box Model Sample*/
-* {
+/* * {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
@@ -39,4 +59,4 @@ div {
 li {
   border: 1px solid cyan;
   background-color: thistle;
-}
+} */
