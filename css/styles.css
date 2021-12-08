@@ -60,3 +60,18 @@ li {
   border: 1px solid cyan;
   background-color: thistle;
 } */
+
+/* Media Query */
+@media (max-width: 600px) {
+  iframe {
+    padding: 10px;
+    background-color: springgreen;
+  }
+}
+
+@media (max-width: 600px) {
+  nav {
+    padding: 10px;
+    display: block;
+  }
+}
