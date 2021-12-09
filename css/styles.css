@@ -1,24 +1,44 @@
 header {
   border: 1px solid grey;
+  background-color: aliceblue;
 }
 
-li {
-  float: right;
-  list-style-type: none;
-}
-
-li a {
-  display: block;
+#nav_a {
   color: grey;
-  text-align: center;
+  text-align: right;
   padding: 14px 16px;
 }
 
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 100%;
+  overflow: auto;
+}
+.dropdown:hover .dropdown-content {
+  display: block; }
+  
+.dropdown-content a {
+  display: block;
+  color: #000000;
+  padding: 5px;
+  text-decoration: none;
+}
+.dropdown-content a:hover {
+  color:black;
+  background-color: grey;
+}
+
+
+#follow_me {
+  text-align: center;
+
 form {
   padding: auto;
-  /* background-color: slategray; */
-  /* font-style: italic; */
-  /* border-style: solid; */
   font-weight: 900px;
   color: black;
   text-align: center;
@@ -29,6 +49,7 @@ input[type="button"]:hover {
   background-color: grey;
   border-radius: 4px;
 }
+
 input[type="text"]:focus {
   color: black;
   background-color: slategray;
@@ -54,20 +75,10 @@ div {
   margin: 20px;
   padding: 10px;
   background-color: violet;
-}
-
-li {
-  border: 1px solid cyan;
-  background-color: thistle;
 } */
 
+
 /* Media Query */
-@media (max-width: 600px) {
-  iframe {
-    padding: 10px;
-    background-color: springgreen;
-  }
-}
 
 @media (max-width: 600px) {
   nav {
