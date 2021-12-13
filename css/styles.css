@@ -1,10 +1,45 @@
 header {
-  border: 1px solid grey;
-  background-color: aliceblue;
+  border: 1px solid #6B6D76;
+  background-color: #6B6D76;
+}
+h1{
+  color:#FCBFB7;
+  text-align: center;
+  font-family:'Lobster',cursive ;
+  font-size: 50px;
+}
+h2, h3{
+  color: #A69888;
+  text-align: center;
+}
+a {
+  color: #FCBFB7;
 }
 
+.vidbio {
+  display: flex;
+}
+.video{
+  display: flex;
+  
+}
+
+p{
+  color: #FCBFB7;
+   ;
+}
+.bio {
+  display: flex;
+  justify-content: space-around;
+}
+
+body{
+  background-color: #334e58;
+}
+
+/* Navbar/ Drop down */
 #nav_a {
-  color: grey;
+  color: #334e58;
   text-align: right;
   padding: 14px 16px;
 }
@@ -24,34 +59,50 @@ header {
   
 .dropdown-content a {
   display: block;
-  color: #000000;
+  color: #6B6D76;
   padding: 5px;
   text-decoration: none;
 }
 .dropdown-content a:hover {
-  color:black;
+  color:#FCBFB7;
   background-color: grey;
 }
 
+.btn_1{
+  background-color: #FCBFB7;
+  color: #6B6D76;
+}
 
+/* Internal Link */
 #follow_me {
   text-align: center;
 
-form {
+.vidbio{
+
+}
+  
+  /* Div w/ video & bio section add flex */
+
+
+
+  /* Contact form */
+
+.form1 {
+  display: flex;
+  justify-content: center;
   padding: auto;
   font-weight: 900px;
-  color: black;
-  text-align: center;
+  color: #6B6D76;
 }
 
 input[type="button"]:hover {
-  color: black;
+  color: #FCBFB7;
   background-color: grey;
   border-radius: 4px;
 }
 
 input[type="text"]:focus {
-  color: black;
+  color: #FCBFB7;
   background-color: slategray;
 }
 
@@ -79,10 +130,10 @@ div {
 
 
 /* Media Query */
+@media (min-width: 600px) {
+  /* Mobile */
+}
 
 @media (max-width: 600px) {
-  nav {
-    padding: 10px;
-    display: block;
-  }
+ /* Desktop */
 }
