@@ -8,12 +8,18 @@ h1{
   font-family:'Lobster',cursive ;
   font-size: 50px;
 }
+
 h2, h3{
   color: #A69888;
   text-align: center;
 }
 a {
   color: #FCBFB7;
+}
+
+.picture {
+  display: flex;
+  justify-content: center;
 }
 
 .vidbio {
